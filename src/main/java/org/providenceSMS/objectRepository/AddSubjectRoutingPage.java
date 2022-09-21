@@ -12,7 +12,7 @@ import org.tyss.providenceSMS.genericUtility.WebDriverUtility;
 public class AddSubjectRoutingPage {
 	
 	@FindBy(id = "day") private WebElement dayDropdown;
-	@FindBy(id = "subject") private WebElement subjectDropdown;
+	@FindBy(name = "subject_id") private WebElement subjectDropdown;
 	@FindBy(id = "classroom") private WebElement classroomDropdown;
 	@FindBy(id = "start_time") private WebElement startTimeTextField;
 	@FindBy(id = "end_time") private WebElement endTimeTextField;

@@ -11,7 +11,7 @@ public class ExamTimetablePage {
 	
 	@FindBy(xpath = "//a[.='Add ']") private WebElement addButton;
 	@FindBy(xpath = "//table/thead/tr/th") private List<WebElement> examTimetableHeaderList;
-	@FindBy(xpath = "//table/tbody/tr/td/br[1]") private List<WebElement> examTimetableList;
+	@FindBy(xpath = "//table/tbody/tr/td") private List<WebElement> examTimetableList;
 	
 	public ExamTimetablePage(WebDriver driver) {
 		PageFactory.initElements(driver,this);
