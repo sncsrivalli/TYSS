@@ -10,7 +10,7 @@ public class MavenCMDPractice {
 	public void test1() {
 		String browser = System.getProperty("browser");
 		String url = System.getProperty("url");
-		
+		//Open browser
 		WebDriverUtility webdriver = new WebDriverUtility();
 		WebDriver driver = webdriver.launchBrowser(browser);
 		webdriver.maximizeBrowser();
