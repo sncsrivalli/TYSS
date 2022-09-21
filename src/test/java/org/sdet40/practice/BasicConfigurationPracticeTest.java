@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class BasicConfigurationPracticeTest {
-	
+	//TestNG practice
 	@BeforeSuite
 	public void suite1Setup() {
 		System.out.println("suite1");
