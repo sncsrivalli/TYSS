@@ -10,7 +10,9 @@ public class MavenCMDPractice {
 	public void test1() {
 		String browser = System.getProperty("browser");
 		String url = System.getProperty("url");
+
 		//facebook
+
 		WebDriverUtility webdriver = new WebDriverUtility();
 		WebDriver driver = webdriver.launchBrowser(browser);
 		webdriver.maximizeBrowser();
