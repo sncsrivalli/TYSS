@@ -13,6 +13,7 @@ import org.testng.annotations.Test;
 public class BasicConfigurationPracticeTest {
 	//new change in master
 	//made changes in new branch
+	//made changes in new branch 1
 	//TestNG practice
 	@BeforeSuite
 	public void suite1Setup() {
